@@ -29,15 +29,21 @@ const NavBar = () => {
               Sign Out
             </Link>
           </li>
+          <li>
+            <Link to="/">Dashboard</Link>
+          </li>
         </ul>
       ) : (
         <ul>
           <li>
             <Link to="/sign-up">Sign Up</Link>
-            </li>
-            <li>
-              <Link to="/sign-in">Sign In</Link>
-            </li>
+          </li>
+          <li>
+            <Link to="/sign-in">Sign In</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
         </ul>
       )}
     </nav>
